@@ -1,0 +1,126 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.accueil {
+    text-align: center;
+}
+
+.carte img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.details h1 {
+    margin: 10px 0;
+}
+
+.competences ul, .formations ul {
+    list-style: none;
+    padding: 0;
+}
+
+.competences li, .formations li {
+    margin: 10px 0;
+}
+
+.carrousel {
+    overflow: hidden;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    transition: all 0.3s ease;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact label {
+    margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .carte {
+        text-align: center;
+    }
+
+    .carrousel {
+        margin: 20px 0;
+    }
+}
